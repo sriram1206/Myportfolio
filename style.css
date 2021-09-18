@@ -74,13 +74,13 @@ section .title::after{
 }
 /* navbar styling */
 .navbar{
-    position: inherit;
-    
+    position: fixed;
+    overflow: hidden;
     width: 100%;
     z-index: 999;
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
-    padding: 30px 0;
+    padding: 5px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
